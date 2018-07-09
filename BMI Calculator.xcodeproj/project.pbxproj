@@ -12,6 +12,8 @@
 		A8A2EC8D20F3709700EA06AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A2EC8B20F3709700EA06AB /* Main.storyboard */; };
 		A8A2EC8F20F3709800EA06AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A2EC8E20F3709800EA06AB /* Assets.xcassets */; };
 		A8A2EC9220F3709800EA06AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A2EC9020F3709800EA06AB /* LaunchScreen.storyboard */; };
+		A8A2EC9A20F37F6200EA06AB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2EC9920F37F6200EA06AB /* Notifications.swift */; };
+		A8A2EC9C20F385BA00EA06AB /* BMICategorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2EC9B20F385BA00EA06AB /* BMICategorizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A8A2EC8E20F3709800EA06AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8A2EC9120F3709800EA06AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8A2EC9320F3709800EA06AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A2EC9920F37F6200EA06AB /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		A8A2EC9B20F385BA00EA06AB /* BMICategorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICategorizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A8A2EC8E20F3709800EA06AB /* Assets.xcassets */,
 				A8A2EC9020F3709800EA06AB /* LaunchScreen.storyboard */,
 				A8A2EC9320F3709800EA06AB /* Info.plist */,
+				A8A2EC9920F37F6200EA06AB /* Notifications.swift */,
+				A8A2EC9B20F385BA00EA06AB /* BMICategorizer.swift */,
 			);
 			path = "BMI Calculator";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A2EC9A20F37F6200EA06AB /* Notifications.swift in Sources */,
 				A8A2EC8A20F3709700EA06AB /* ViewController.swift in Sources */,
+				A8A2EC9C20F385BA00EA06AB /* BMICategorizer.swift in Sources */,
 				A8A2EC8820F3709700EA06AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
